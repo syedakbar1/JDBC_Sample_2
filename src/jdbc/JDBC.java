@@ -14,6 +14,8 @@ public class JDBC {
 	public static void main(String[] args) {
 
 		try {
+			
+			//test
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection connection = DriverManager.getConnection(url, userName, password);
